@@ -22,6 +22,7 @@
 		59CD04EA25A6D9C000599047 /* UpComingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CD04E925A6D9C000599047 /* UpComingView.swift */; };
 		59CD04ED25A6D9D500599047 /* TopRatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CD04EC25A6D9D500599047 /* TopRatedView.swift */; };
 		59CD04F225A7003200599047 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CD04F125A7003200599047 /* MyView.swift */; };
+		77253A2727A02D1F001FA80A /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77253A2627A02D1F001FA80A /* PersonalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		59CD04E925A6D9C000599047 /* UpComingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingView.swift; sourceTree = "<group>"; };
 		59CD04EC25A6D9D500599047 /* TopRatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedView.swift; sourceTree = "<group>"; };
 		59CD04F125A7003200599047 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		77253A2627A02D1F001FA80A /* PersonalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				591FE15E25A58B3600C9E587 /* ContentView.swift */,
 				59CD04F125A7003200599047 /* MyView.swift */,
 				59CD04E325A6D98D00599047 /* PopularView.swift */,
+				77253A2627A02D1F001FA80A /* PersonalView.swift */,
 				59CD04E625A6D9A700599047 /* NowPlayingView.swift */,
 				551BA3C425B2FAE70018DDB4 /* SearchBarView.swift */,
 				59CD04E925A6D9C000599047 /* UpComingView.swift */,
@@ -183,6 +186,7 @@
 				551BA3C525B2FAE70018DDB4 /* SearchBarView.swift in Sources */,
 				59CD04EA25A6D9C000599047 /* UpComingView.swift in Sources */,
 				59CD04ED25A6D9D500599047 /* TopRatedView.swift in Sources */,
+				77253A2727A02D1F001FA80A /* PersonalView.swift in Sources */,
 				59CD04F225A7003200599047 /* MyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

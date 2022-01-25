@@ -35,6 +35,19 @@ struct PopularView: View {
                 fetchPopularMovies()
             })
             .navigationTitle(Text("HOT"))
+            .navigationBarItems(trailing:
+                                    Button(action: {
+                                        self.showPersonal = true
+                                    }) {
+                                        Image(systemName: "person.crop.circle")
+                                    }
+                .sheet(isPresented: $showPersonal, onDismiss: {
+                    print("Dismiss")
+                }, content: {
+                    PersonalView()
+                })
+            )
+            .navigationBarTitleDisplayMode(.inline)
         }
         
     }
